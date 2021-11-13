@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(253, 68, 0, 0.534);
+}
+
+.promodoroclock{
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align:center;
+    background-color: #38b9b9;
+    padding: 5%;
+    height: 70%;
+    color: aliceblue;
+    box-shadow: 2px 3px 4px black;
+    border-radius:10px;
+}
+
+.clock{
+    background-color: #00ffff88;
+    font-size: 30px;
+    border-radius:10px;
+}
+
+.time{
+    display: inline;
+}
+
+#plus{
+    background-color: #38b9b9;
+    font-size:30px;
+    border-radius: 10px;
+}
+
+#plus:hover{
+    color: hsl(0, 15%, 75%);
+    cursor: pointer;
+}
+
+#plus:focus{
+    color: hsl(0, 15%, 75%);
+    cursor: pointer;
+    transform: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+#play:hover{
+    color: hsl(0, 15%, 75%);
+    cursor: pointer;
+}
+
+#play:focus{
+    color: hsl(0, 15%, 75%);
+    cursor: pointer;
+}
+
+#pause:hover{
+    color: hsl(0, 15%, 75%);
+    cursor: pointer;
+}
+
+#pause:focus{
+    color: hsl(0, 15%, 75%);
+    cursor: pointer;
+}
+
+#stop:hover{
+    color: hsl(0, 15%, 75%);
+    cursor:pointer;
+}
+
+#stop:focus{
+    color: hsl(0, 15%, 75%);
+    cursor: pointer;
+}
+
+#play{
+    margin: 10px;
+}
+
+#pause{
+    margin: 10px;
+}
+
+#stop{
+    margin: 10px;
+}
