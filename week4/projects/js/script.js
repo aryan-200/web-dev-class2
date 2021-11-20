@@ -24,9 +24,9 @@ minusbtn.addEventListener('click',function () {
 
 playbtn.addEventListener('click',function () {
 
- setInterval(gotimer,1000)
+ setInterval(gotimer,10)
     function gotimer() {
-        if (second < 1) {
+        if (secondEl < 1) {
             startMinute--;
             minuteEl.innerHTML = startMinute;
             secondEl.innerHTML = 59;
