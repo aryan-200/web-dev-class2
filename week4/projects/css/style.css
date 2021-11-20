@@ -36,6 +36,7 @@ body{
     background-color: #38b9b9;
     font-size:30px;
     border-radius: 10px;
+    margin: 10px;
 }
 
 #plus:hover{
@@ -44,6 +45,22 @@ body{
 }
 
 #plus:focus{
+    color: hsl(0, 15%, 75%);
+    cursor: pointer;
+    transform: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#minus{
+    background-color: #38b9b9;
+    font-size:30px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#minus:hover{
+    color: hsl(0, 15%, 75%);
+    cursor: pointer;
+}
+
+#minus:focus{
     color: hsl(0, 15%, 75%);
     cursor: pointer;
     transform: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -90,4 +107,12 @@ body{
 
 #stop{
     margin: 10px;
+}
+
+#numberpm{
+    font-size: 25px;
+    /* color: brown; */
+    border: 5px solid rgb(0, 163, 128);
+    border-radius: 10px;
+    padding: 10px;
 }

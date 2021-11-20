@@ -1,26 +1,49 @@
-const add = document.getElementById('plus')
-const play = document.getElementById('play')
-const pause = document.getElementById('pause')
-const stop = document.getElementById('stop')
-let minute = document.getElementById('minute')
-let second = document.getElementById('second')
+const addbtn = document.getElementById('plus')
+const playbtn = document.getElementById('play')
+const pausebtn = document.getElementById('pause')
+const stopbtn = document.getElementById('stop')
+const minuteEl = document.getElementById('minute')
+const secondEl = document.getElementById('second')
+const minusbtn = document.getElementById('minus')
+const tf = document.getElementById('numberpm')
+
+let second = 0;
+let startMinute = 25;
+let startSecond = 59;
+
+addbtn.addEventListener('click',function () {
+    startMinute++;
+    tf.innerHTML = startMinute;
+})
+
+minusbtn.addEventListener('click',function () {
+    startMinute--;
+    tf.innerHTML = startMinute;
+})
 
 
-function clock() {
-    play.addEventListener('click',function player() {
-        for (let i = 0; i < play.length; i++) {
-            i += second -1;
+playbtn.addEventListener('click',function () {
+
+ setInterval(gotimer,1000)
+    function gotimer() {
+        if (second < 1) {
+            startMinute--;
+            minuteEl.innerHTML = startMinute;
+            secondEl.innerHTML = 59;
+            
         }
-        setInterval(1000,player)
-    })
-    
-    pause.addEventListener('click',function pauser() {
-        setInterval(0,play)
-    })
-    
-    stop.addEventListener('click',function stoper() {
-        minute.innerHTML = 24;
-        second.innerHTML = 59;
-        
-    })
-}
+        startSecond--;
+        secondEl.innerHTML = startSecond;
+        //  minuteEl.innerHTML = startMinute;
+
+    }
+})
+
+stopbtn.addEventListener('click' ,function () {
+    minuteEl.innerHTML = 25;
+    secondEl.innerHTML = 0;
+})
+
+pausebtn.addEventListener('click' ,function () {
+    clearInterval(gotimer)
+})
