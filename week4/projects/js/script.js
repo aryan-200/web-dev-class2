@@ -26,15 +26,15 @@ playbtn.addEventListener('click',function () {
 
  setInterval(gotimer,10)
     function gotimer() {
+        startSecond--;
+        secondEl.innerHTML = startSecond;
+
         if (secondEl < 1) {
             startMinute--;
             minuteEl.innerHTML = startMinute;
             secondEl.innerHTML = 59;
             
         }
-        startSecond--;
-        secondEl.innerHTML = startSecond;
-        //  minuteEl.innerHTML = startMinute;
 
     }
 })
