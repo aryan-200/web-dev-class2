@@ -33,7 +33,6 @@ playbtn.addEventListener('click',function () {
             startMinute--;
             minuteEl.innerHTML = startMinute;
             secondEl.innerHTML = 59;
-            
         }
 
     }
@@ -45,5 +44,5 @@ stopbtn.addEventListener('click' ,function () {
 })
 
 pausebtn.addEventListener('click' ,function () {
-    clearInterval(gotimer)
+    removeEventListener(gotimer)
 })

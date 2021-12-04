@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.test{
+    font-size: 10ch;
+    color: aliceblue;
+    background-color: brown;
+    text-align: center;
+}
