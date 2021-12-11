@@ -10,30 +10,34 @@
 <body>
     <div class="container">
         <h1>برنامه محاسبه انعام</h1>
-        <label for="bill">مزیت فاکتور </label>
-        <input type="number" id="bill" >
-        <br>
-        <br>
-        <label for="number">میزان رضایت شما</label>
-        <script src="js/script.js"></script>
-        <select name="" id="service">
-            <option value="">عالی</option>
-            <option value="">خوب</option>
-            <option value="">قابل قبول</option>
-            <option value="">بد</option>
-            <option value="">خیلی بد</option>
-        </select>
-        <br>
-        <br>
-        <label for="people">تعداد افراد</label>
-        <input type="number" id="people">
-        <br>
-        <br>
-        <button id="calculate">محاسبه انعام</button>
+        <form action="">
+           
+            <label for="bill">مبلغ فاکتور </label>
+            <input type="number" id="bill" min="0">
+            <br>
+            <br>
+            <label for="number">میزان رضایت شما</label>
+            
+            <select name="" id="service">
+                <option value="30">عالی</option>
+                <option value="20">خوب</option>
+                <option value="10">قابل قبول</option>
+                <option value="5">بد</option>
+                <option value="3">خیلی بد</option>
+            </select>
+            <br>
+            <br>
+            <label for="people">تعداد افراد</label>
+            <input type="number" id="people" min="0">
+            <br>
+            <br>
+            <button id="calculate">محاسبه انعام</button>
+        </form>
+
         
         
         <h2 id="amount">0</h2>
     </div>
-
+    <script src="js/script.js"></script>
 </body>
 </html>
