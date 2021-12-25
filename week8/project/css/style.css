@@ -33,6 +33,7 @@ input{
     padding: 5px;
     border: 0.001em solid black;
     text-align: center;
+    width: 150px;
 }
 
 input:focus{
@@ -62,4 +63,18 @@ input:focus{
 #digitalword{
     font-size: 8px;
     margin-bottom: 0;
+}
+
+#warning{
+    color: red; 
+    font-family: sans-serif; 
+    font-size: 10px; 
+    display: none;
+}
+
+#true{
+    color: red; 
+    font-family: sans-serif; 
+    font-size: 10px; 
+    display: none;
 }
