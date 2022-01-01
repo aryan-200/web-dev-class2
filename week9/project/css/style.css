@@ -55,3 +55,19 @@ h4{
     background-color: RoyalBlue;
     cursor: pointer;
   }
+
+#email{
+    text-decoration:none;
+    background:linear-gradient(to right ,orangered,yellow) ;
+    color:white ;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#phon{
+    text-decoration:none;
+    background:linear-gradient(to right ,orangered,yellow);
+    color:white;
+    padding: 5px;
+    border-radius: 5px;
+} 
