@@ -20,6 +20,8 @@ fetch(url)
     nam.innerHTML = data.results[0].name.first + data.results[0].name.last;
     locationl.innerHTML = data.results[0].location.city +',' + data.results[0].location.country;
     email.innerHTML = data.results[0].email;
+    email.href = "mailto:"+ data.results[0].email;
+    phone.href = "tel:"+data.results[0].phone;
     phone.innerHTML = data.results[0].phone;
     age.innerHTML = data.results[0].registered.age;
     address.innerHTML = data.results[0].location.street.name;
@@ -37,7 +39,9 @@ refresh.addEventListener('click',  function (data){
         img.src = data.results[0].picture.large;
         nam.innerHTML = data.results[0].name.first + data.results[0].name.last;
         locationl.innerHTML = data.results[0].location.city +',' + data.results[0].location.country;
+        email.href = "mailto:"+ data.results[0].email;
         email.innerHTML = data.results[0].email;
+        phone.href = "tel:"+data.results[0].phone;
         phone.innerHTML = data.results[0].phone;
         age.innerHTML = data.results[0].registered.age;
         address.innerHTML = data.results[0].location.street.name;
