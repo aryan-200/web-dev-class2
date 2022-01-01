@@ -41,5 +41,6 @@ refresh.addEventListener('click',  function (data){
         phone.innerHTML = data.results[0].phone;
         age.innerHTML = data.results[0].registered.age;
         address.innerHTML = data.results[0].location.street.name;
+        profile.innerHTML = data.results[0].name.title;
     })
 })
