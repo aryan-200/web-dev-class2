@@ -6,7 +6,7 @@
 
 body{
     background: linear-gradient(to left,orangered,orange);
-    margin: 1px;
+    padding: 1px;
 }
 
 #form{
@@ -16,23 +16,26 @@ body{
     transform:translate(-50%,-50%);
     background-color:azure;
     text-align: center;
-    width: 150px;
+    width: 300px;
     box-shadow: 2px 2px 30px black;
     border-radius: 2%;
+    font-size: 20px;
 }
 
 img{
     vertical-align: middle;
-    border-radius: 50%;
+    border: 2px solid orangered;
+    border-radius: 100%;
+    width: 150px;
 }
 
 p{
-    font-size: 10px;
+    font-size: 20px;
     margin: 10px;
 }
 
 h4{
-    font-size: 15px;
+    font-size: 25px;
     text-align: center;
     margin: 10px;
 }
@@ -43,10 +46,11 @@ h4{
     color: white;
     padding: 1px 10px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 50px;
   }
   
   
   #refresh:hover {
     background-color: RoyalBlue;
+    cursor: pointer;
   }
