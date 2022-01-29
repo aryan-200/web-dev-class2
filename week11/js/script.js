@@ -122,13 +122,13 @@ document.addEventListener('keydown',function (e) {
         audioo10.currentTime = 0;
         audioo10.play()
     }
-    if (e.key == 'e') {
+    if (e.key == ';') {
         audioo11.currentTime = 0;
         audioo11.play()
     }
     if (e.key == 'i') {
-        audioo11.currentTime = 0;
-        audioo11.play()
+        audioo12.currentTime = 0;
+        audioo12.play()
     }
 })
 
