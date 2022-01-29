@@ -103,28 +103,32 @@ document.addEventListener('keydown',function (e) {
         audioo5.play()
     }
     if (e.key == 'g') {
-        audioo7.currentTime = 0;
-        audioo7.play()
-    }
-    if (e.key == 'h') {
         audioo6.currentTime = 0;
         audioo6.play()
     }
+    if (e.key == 'h') {
+        audioo7.currentTime = 0;
+        audioo7.play()
+    }
     if (e.key == 'j') {
+        audioo8.currentTime = 0;
+        audioo8.play()
+    }
+    if (e.key == 'k') {
         audioo9.currentTime = 0;
         audioo9.play()
     }
-    if (e.key == 'k') {
+    if (e.key == 'l') {
         audioo10.currentTime = 0;
         audioo10.play()
     }
-    if (e.key == 'l') {
+    if (e.key == 'e') {
         audioo11.currentTime = 0;
         audioo11.play()
     }
     if (e.key == 'i') {
-        audioo12.currentTime = 0;
-        audioo12.play()
+        audioo11.currentTime = 0;
+        audioo11.play()
     }
 })
 
