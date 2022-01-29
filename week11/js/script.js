@@ -87,46 +87,51 @@ document.addEventListener('keydown',function (e) {
 
 document.addEventListener('keydown',function (e) {
     if (e.key == 'a') {
-        audioo2.currentTime = 0;
-        audioo2.play()
+        audioo1.currentTime = 0;
+        audioo1.play()
     }
     if (e.key == 's') {
-        audioo4.currentTime = 0;
-        audioo4.play()
+        audioo2.currentTime = 0;
+        audioo2.play()
     }
     if (e.key == 'd') {
         audioo3.currentTime = 0;
         audioo3.play()
     }
     if (e.key == 'f') {
+        audioo4.currentTime = 0;
+        audioo4.play()
+    }
+
+    if (e.key == 'g') {
         audioo5.currentTime = 0;
         audioo5.play()
     }
-    if (e.key == 'g') {
+    if (e.key == 'h') {
         audioo6.currentTime = 0;
         audioo6.play()
     }
-    if (e.key == 'h') {
+    if (e.key == 'j') {
         audioo7.currentTime = 0;
         audioo7.play()
     }
-    if (e.key == 'j') {
+    if (e.key == 'k') {
         audioo8.currentTime = 0;
         audioo8.play()
     }
-    if (e.key == 'k') {
+    if (e.key == 'l') {
         audioo9.currentTime = 0;
         audioo9.play()
     }
-    if (e.key == 'l') {
+    if (e.key == ';') {
         audioo10.currentTime = 0;
         audioo10.play()
     }
-    if (e.key == ';') {
+    if (e.key == 'i') {
         audioo11.currentTime = 0;
         audioo11.play()
     }
-    if (e.key == 'i') {
+    if (e.key == 'e') {
         audioo12.currentTime = 0;
         audioo12.play()
     }
