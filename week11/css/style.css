@@ -10,15 +10,11 @@ body{
 
 .container{
     position:absolute;
-    display: flex;
+    display:flex;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%); 
-     flex-wrap: wrap;
-}
-
-.notes{
-    margin:5px;
+    flex-wrap: wrap;
 }
 
 #btn1{
@@ -79,4 +75,134 @@ body{
 #btn4:hover{
     background-color: #bb00bb;
     box-shadow: 2px 2px 20px;
+}
+
+#btn5{
+    background-color: cyan;
+    color: black;
+    outline: none;
+    border: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 4px 2px 10px;
+}
+
+#btn5:hover{
+    background-color: #23bebe;
+    box-shadow: 2px 2px 20px;
+}
+
+#btn6{
+    background-color: rgb(248, 58, 58);
+    color: black;
+    outline: none;
+    border: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 4px 2px 10px;
+}
+
+#btn6:hover{
+    background-color: red;
+    box-shadow: 2px 2px 20px;
+}
+
+#btn7{
+    background-color: rgb(255, 190, 70);
+    color: black;
+    outline: none;
+    border: 2px green;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 4px 2px 10px;
+}
+
+#btn7:hover{
+    background-color:orange;
+    box-shadow: 2px 2px 20px;
+}
+
+#btn8{
+    background-color: #f52ef5;
+    color: black;
+    outline: none;
+    border: 2px orangered;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 4px 2px 10px;
+}
+
+#btn8:hover{
+    background-color: #bb00bb;
+    box-shadow: 2px 2px 20px;
+}
+
+#btn9{
+    background-color: cyan;
+    color: black;
+    outline: none;
+    border: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 4px 2px 10px;
+}
+
+#btn9:hover{
+    background-color: #23bebe;
+    box-shadow: 2px 2px 20px;
+}
+
+#btn10{
+    background-color: rgb(248, 58, 58);
+    color: black;
+    outline: none;
+    border: 2px;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 4px 2px 10px;
+}
+
+#btn10:hover{
+    background-color: red;
+    box-shadow: 2px 2px 20px;
+}
+
+#btn11{
+    background-color: rgb(255, 190, 70);
+    color: black;
+    outline: none;
+    border: 2px green;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 4px 2px 10px;
+}
+
+#btn11:hover{
+    background-color:orange;
+    box-shadow: 2px 2px 20px;
+}
+
+#btn12{
+    background-color: #f52ef5;
+    color: black;
+    outline: none;
+    border: 2px orangered;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 4px 2px 10px;
+}
+
+#btn12:hover{
+    background-color: #bb00bb;
+    box-shadow: 2px 2px 20px;
+}
+
+button{
+    margin: 20px;
+}
+
+.wordn{
+    display: ;
+    font-size: 50px;
+    color: red;
 }
