@@ -202,7 +202,8 @@ button{
 }
 
 .wordn{
-    display: ;
+    display: block;
     font-size: 50px;
-    color: red;
+    color: orange;
+    font-family: 'Mochiy Pop P One', sans-serif;
 }
