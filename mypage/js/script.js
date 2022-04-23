@@ -1,4 +1,3 @@
-//movecat , secret site , code generater , api , musice , cart etebary , hesab hoghogh
 //https://aryan-200.github.io/web-dev-class2/week1/project/index.html
 //web-dev-class2/week2/project/index.html
 //web-dev-class2/week3/project/index.html
